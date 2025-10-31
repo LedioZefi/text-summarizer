@@ -1,0 +1,14 @@
+{
+  "default_model": "google/flan-t5-small",
+  "available_models": [
+    "google/flan-t5-small",
+    "facebook/bart-large-cnn",
+    "google-t5/t5-base"
+  ],
+  "device": "cpu",
+  "max_input_chars": 200000,
+  "chunk_tokens": 880,
+  "stride_tokens": 80,
+  "target_sentences_per_chunk": [1, 3]
+}
+
